@@ -1,3 +1,8 @@
+---
+name: wordpress-security-skill
+description: Enforces strict WordPress coding standards (WPCS) and security best practices for all WordPress PHP, JavaScript, CSS, and HTML code. Covers sanitization, escaping, nonces, capability checks, database safety, and plugin structure conventions.
+---
+
 # WordPress Coding Standards & Security Skill
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+name: human-like-code-engineering
+description: Write code that is efficient, maintainable, predictable, and easy for a human developer to understand and extend. Ensures AI-generated code follows real-world production standards, avoids AI-specific code smells, and is indistinguishable from thoughtful human-written code.
+---
+
 # Human-Like Code Engineering
 
 ## Purpose
