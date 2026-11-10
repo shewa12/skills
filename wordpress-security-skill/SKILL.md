@@ -1,6 +1,8 @@
 ---
 name: wordpress-security-skill
 description: Enforces strict WordPress coding standards (WPCS) and security best practices for all WordPress PHP, JavaScript, CSS, and HTML code. Covers sanitization, escaping, nonces, capability checks, database safety, and plugin structure conventions.
+related_skills:
+  - security-audit
 ---
 
 # WordPress Coding Standards & Security Skill
@@ -643,3 +645,20 @@ Before submitting or merging WordPress code, verify:
 - [ ] `elseif` used (not `else if`)
 - [ ] All functions/classes/hooks have PHPDoc blocks
 - [ ] PHPCS with WordPress standard passes with zero errors
+
+---
+
+## RELATED SKILLS
+
+### security-audit
+
+For deeper security analysis beyond WordPress coding standards — including full codebase audits, penetration testing, vulnerability research, and comprehensive security reviews — use the **security-audit** skill alongside this one.
+
+- **This skill** covers WordPress-specific coding standards, sanitization, escaping, nonces, capability checks, and database safety patterns.
+- **security-audit** covers broader security concerns: trust boundary analysis, vulnerability classification, safe reproduction, prioritization, and remediation guidance across any codebase, API, service, or infrastructure.
+
+**When to use both together:**
+- Performing a security review of a WordPress plugin or theme.
+- Auditing a WordPress site for vulnerabilities before release.
+- Investigating a suspected security issue in WordPress code.
+- Preparing a WordPress plugin for public distribution or the plugin directory.
